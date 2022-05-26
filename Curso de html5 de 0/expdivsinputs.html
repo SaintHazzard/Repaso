@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles de los Divs</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="armando.html">Inicio</a></li>
+                <li><a href="armando1.html">Mi cuenta</a></li>
+                <li><a href="expdivsinputs.html">Sobre nosotros</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <h1>Conociendo mas detalles de los divs</h1>
+    <div>
+        <h2>Hola como <b>estas</b></h2>
+        <p>Es lo que diria alguien que <i>saluda</i></p>
+        <!-- placeholder es el texto claro que da sugestion en un input -->
+        <!-- type es el tipo de dato que se solicita ingresar -->
+        <!-- maxlength="x" numero maximo de caracteres que permitimos -->
+        <!-- label click me lleva hasta el lugar que tiene por FOR -->
+        <!-- atb requerido obligatorio -->
+        <form action="CVplus.html">
+            <label for="nombre">Ingrese el nombre</label>
+            <input type="text" placeholder="nombre" maxlength="10" name="nombre" id="nombre" required>
+            <input type="password" placeholder="Contrasenia" maxlength="10" name="pass" id="pass" required>
+            <input type="number" placeholder="numero">
+            <input type="email" placeholder="E-mail">
+            <br><br>
+            <!-- Checkbox crea una casilla para marcar -->
+            <input type="checkbox" name="" id="">Hombre
+            <input type="checkbox" name="" id="">Hombre
+            <br><br>
+            <!-- radio boton redondo para marcar como checkbox -->
+            <input type="radio" name="" id="">Hombre
+            <input type="radio" name="" id="">Hombre
+            <br><br>
+            <!-- button -->
+            <input type="button" value="Enviar">
+            <br><br>
+            <!-- sumbit envia los datos -->
+            <input type="submit">
+            <br><br>
+            <!-- lista desplegable con select -->
+            <Select name="" id="">
+                <option value="Mexico">Mexico</option>
+                <option value="Colombia">Colombia</option>
+            </Select>
+            <br><br>
+            <!-- eleccion de color -->
+            <input type="color" name="" id="">
+            <br><br>
+            <!-- bara dezlizante min y max -->
+            <input type="range" name="" id="" min="0" max="10">
+            <br>
+            <!-- fecha -->
+            <input type="date" name="" id="">
+            <input type="time" name="" id="">
+            <!-- cuadro de texto manipulable //readonly//  -->
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </form>
+
+    </div>
+    
+</body>
+</html>
