@@ -1,0 +1,97 @@
+
+/* ESPECIFICIDAD
+Los selectores
+- Universal----- *loquesea{}
+-de tipo----- "h1{}" -- "lo que sea{}"
+-clases---- .loquesea{}
+-Por id ------ #loquesea{}
+-por atributo ------- [loquesea = "brrr"]{}
+-descentiente -------- h3 p{}
+-pseudo-clase -------- h2:hover{}
+-important ----------- h1{ color:grey !important}
+ */ 
+
+
+
+ /* UNIDADES
+ 50W
+ Xem es adaptable dependiendo del cuadro en el que este 
+ 
+viewport
+        width: 50vw;
+         height: 50vh;*/
+
+
+    /* tipografica
+    font-
+         size tamanio comun
+         family lobster, arial; fuente de letra tomadas en orden 
+         weight ancho de letra
+         stretch
+         variant
+    line-height: altura desde un eje x que pasa por el medio de la palabra */
+
+ 
+
+/* Aca pinto el body */
+
+/* .contact-form h1{
+    color: blueviolet;
+    font-size: 2em;
+    background-color: black;
+    width: 50%;
+    
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+} */
+
+h1{
+    display: inline-block;
+    background-color: aqua;
+    padding: 100px;
+    margin: 10px 20px;
+    box-sizing: border-box;
+    border: 4px solid;
+}
+
+h2{
+    background-color: black;
+    box-sizing: border-box;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
