@@ -48,20 +48,27 @@ viewport
     margin: 0px;
 } */
 
-h1{
-    display: inline-block;
+/* h1{
+    display: block;
     background-color: aqua;
     padding: 100px;
     margin: 10px 20px;
     box-sizing: border-box;
     border: 4px solid;
+    border-radius: 1em;
+    box-shadow: 10px 20px;
+    text-shadow: 2px 3px chocolate;
+    transform: rotate(1deg);
 }
 
 h2{
     background-color: black;
     box-sizing: border-box;
 
-}
+} */
+
+/* Outline lptm */
+
 
 
 

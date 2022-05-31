@@ -1,0 +1,113 @@
+/* .caja1 {
+    width: 200px;
+    height: 200px;
+    background: red;
+    margin: auto;
+    outline: 10px solid green;
+    
+}
+
+.caja2 {
+    width: 200px;
+    height: 200px;
+    background: blue;
+    margin: auto;
+} */
+
+/* .caja1 {
+    width: 200px;
+height: 200px;
+background: yellow;
+}
+
+.caja2 {
+    width: 200px;
+height: 200px;
+background: orange;
+position: relative;
+top: 90px;
+left: 100px;
+z-index: 1;
+}
+.caja3 {
+    width: 200px;
+height: 200px;
+background: lightblue;
+position: relative;
+z-index: 0;
+
+}
+.caja4 {
+    width: 200px;
+height: 200px;
+background: green;
+}
+
+div{
+    font-size: 3em;
+    color: blue;
+} 
+
+/* .contenedor{
+    width: 300px;
+    height: 300px;
+    background: blue;
+    position: relative;
+    margin: 40px;
+}
+
+.hijo {
+    background: orange;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: -20px;
+    left: -20px;
+    z-index: -1;
+} */
+
+div{
+    display: block;
+    position: absolute;
+    background: green
+
+}
+div div{
+    height: 75px;
+    width: 75px;
+    background: yellow;
+
+}
+.contenedor{
+    position: relative;
+    border: 4px solid red;
+    margin: 50px auto;
+    height: 450px;
+    width: 450px;
+}
+.caja1 {
+left: 0;
+
+}
+
+.caja2 {
+right: 0;    
+}
+.caja3 {
+ bottom: 0;
+ right: 0;
+}
+
+
+.caja4 {
+ bottom: 0;
+ 
+}
+
+.caja5{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
